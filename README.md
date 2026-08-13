@@ -34,13 +34,3 @@ Input:
 s = "babacc"
 queryCharacters = "bcb"
 queryIndices = [1, 3, 3]
-
-Output:
-
-[3, 3, 4]
-
-Data Stored in Each Node:
-
-[first character, last character, length, prefix, suffix, best]
-
-
