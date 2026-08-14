@@ -34,17 +34,17 @@ Total: O(n + k log n)
 Space: O(n)
 Example
 
-###Input:
+Input:
 
 s = "babacc"
 queryCharacters = "bcb"
 queryIndices = [1, 3, 3]
 
-###Output:
+Output:
 
 [3, 3, 4]
 
-###Data Stored in Each Node
+Data Stored in Each Node
 [first_character,
  last_character,
  length,
