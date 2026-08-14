@@ -33,3 +33,18 @@ When a character appears more than two times, we move `left` forward until the w
 
 ```text
 s = "bcbbbcba"
+
+
+Output:
+
+4
+Code
+
+See solution.py
+
+Complexity
+Time: O(n)
+Space: O(1)
+Pattern
+
+Sliding Window + Frequency Array
